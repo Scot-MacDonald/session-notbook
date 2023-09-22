@@ -1,0 +1,73 @@
+:root {
+  --color-primary: white;
+  --background-color-primary: black;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+body {
+  background-color: var(--background-color-primary);
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* ------------------
+    NavBar
+---------------------*/
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+nav {
+  width: 100%;
+  color: var(--color-primary);
+  border-bottom: 1px solid var(--color-primary);
+  padding: 20px;
+}
+
+nav h1,
+nav h6 {
+  font-size: 30px;
+  display: inline;
+}
+
+nav h1 {
+  text-align: center;
+  font-size: 30px;
+  margin: 20%;
+}
+
+.title {
+  color: blue;
+}
+
+/* ------------------
+    
+---------------------*/
+
+h1 {
+  font-size: 30px;
+}
+
+.albums {
+  margin: auto;
+  width: 100%;
+}
+.albums__albums-display {
+  border: 2px solid silver;
+  display: inline-table;
+  margin: 30px;
+}
+
+.albums__albums-display__albums img {
+  width: 350px;
+  height: 350px;
+}
