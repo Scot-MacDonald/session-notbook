@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  background-color: aqua;
+}
+
+ul {
+  font-size: 2rem;
+}
+
+li {
+  font-size: 1rem;
+}
+
+.square-big {
+  width: 40vw;
+  height: 50vh;
+  background-color: black;
+}
+
+.square-small {
+  width: 30vw;
+  height: 40vh;
+  background-color: red;
+}
