@@ -1,0 +1,21 @@
+* {
+  box-sizing: content-box;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  color: silver;
+}
+p {
+  color: white;
+}
+.dark {
+  background-color: aquamarine;
+}
+
+.alert {
+  background-color: red;
+}
